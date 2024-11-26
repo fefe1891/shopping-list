@@ -1,0 +1,30 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.grocery-item {
+    background-color: #f9f9f9;
+    margin-bottom: 10px;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.item-name {
+    display: inline-block;
+    font-size: 18px;
+}
+
+.delete-btn {
+    float: right;
+    cursor: pointer;
+    color: red;
+}
+
+.delete-btn:hover {
+    text-decoration: underline;
+}
